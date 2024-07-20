@@ -227,7 +227,7 @@ def google_login():
     flow = Flow.from_client_config(
         client_config=CLIENT_CONFIG,
         scopes=SCOPES,
-        redirect_uri="http://ecogpt.streamlit.app"
+        redirect_uri="https://ecogpt.streamlit.app/"
     )
     authorization_url, _ = flow.authorization_url(prompt="consent")
     
