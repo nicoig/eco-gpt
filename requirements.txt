@@ -1,0 +1,8 @@
+streamlit
+Pillow
+langchain
+openai
+python-dotenv
+bcrypt
+google-auth-oauthlib
+google-api-python-client
